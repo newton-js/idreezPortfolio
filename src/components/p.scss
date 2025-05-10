@@ -1,0 +1,11 @@
+$green-text: #4ABBA8;
+$background-color: #0A192F;
+$webkit-text-fill-color: #8892B0;
+$text-color: #CCD6F6;
+$text-line-height: 30px;
+
+.p-tag{
+    color: $webkit-text-fill-color;
+    line-height: $text-line-height;
+    margin-bottom: 1rem;
+}

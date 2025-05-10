@@ -1,0 +1,27 @@
+$green-text: #4abba8;
+$background-color: #0a192f;
+$webkit-text-fill-color: #8892b0;
+$text-color: #ccd6f6;
+$text-size: 1rem;
+$text-line-height: 30px;
+
+.about{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 15rem;
+}
+
+
+@media(max-width: 850px){
+    .about{
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}
+
+@media(max-width: 600px){
+    .about{
+        margin-bottom: 10rem;
+    }
+}
