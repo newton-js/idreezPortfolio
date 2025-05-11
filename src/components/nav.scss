@@ -9,8 +9,8 @@ $text-size: 1rem;
 $text-line-height: 30px;
 
 .nav {
+  padding: 0 6rem;
   width: 100%;
-  padding: 0 4rem;
   z-index: 99999;
   display: flex;
   align-items: center;
@@ -60,7 +60,7 @@ $text-line-height: 30px;
   display: flex;
   align-items: center;
   gap: 1.5rem;
-  transition: all .5s ease;
+  transition: all 0.5s ease;
 }
 
 .nav-list {
@@ -99,6 +99,11 @@ $text-line-height: 30px;
 }
 
 @media (max-width: 900px) {
+
+    .nav {
+        padding: 0 4rem;
+      }
+
   .nav-icon-box {
     display: block;
   }
@@ -148,6 +153,10 @@ $text-line-height: 30px;
 }
 
 @media (max-width: 600px) {
+  .nav {
+    padding: 0 2rem;
+  }
+
   .main-nav-list {
     width: 100%;
     background: linear-gradient(
@@ -158,5 +167,11 @@ $text-line-height: 30px;
       $secondary-background 100%
     );
     padding-left: 6rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .nav {
+    padding: 0 2rem;
   }
 }

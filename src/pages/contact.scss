@@ -30,3 +30,10 @@ $text-line-height: 30px;
     color: $webkit-text-fill-color;
     margin-bottom: 4rem;
 }
+
+@media(max-width: 1000px){
+
+    .child{
+        margin: 0 auto;
+    }
+}

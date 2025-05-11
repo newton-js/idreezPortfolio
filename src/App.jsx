@@ -4,9 +4,11 @@ import Experience from "./pages/Experience"
 import Footer from "./pages/Footer"
 import Hero from "./pages/Hero"
 import Projects from "./pages/Projects"
-import "./app.scss";
 import Nav from "./components/Nav"
 import Contact from "./pages/Contact"
+import ContactsBox from "./components/ContactsBox"
+import VerticalMail from "./components/VerticalMail"
+import "./app.scss";
 
 function App() {
   return (
@@ -17,8 +19,11 @@ function App() {
       <Experience/>
       <Projects/>
       <Analysis/>
-      <Contact/>
+      <Contact>
+        {/* <ContactsBox/> */}
+      </Contact>
       <Footer/>
+      <VerticalMail/>
     </div>
   )
 }
