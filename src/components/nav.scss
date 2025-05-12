@@ -100,9 +100,9 @@ $text-line-height: 30px;
 
 @media (max-width: 900px) {
 
-    .nav {
-        padding: 0 4rem;
-      }
+  .nav {
+      padding: 0 4rem;
+    }
 
   .nav-icon-box {
     display: block;
@@ -136,6 +136,7 @@ $text-line-height: 30px;
   .toggle .main-nav-list {
     opacity: 1;
     visibility: visible;
+    pointer-events: visible;
     right: 0%;
     transition: all 0.5s ease;
   }

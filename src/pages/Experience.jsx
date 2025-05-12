@@ -71,7 +71,7 @@ const contents = [
 
 function Experience() {
     return (
-        <div className="experience">
+        <div id="experience" className="experience">
             <Title number={"02"}>Where I've Worked</Title>
             <TabbedComponent contents={contents}/>
         </div>

@@ -16,34 +16,40 @@ function Nav() {
           N<sup>+</sup>
         </h2>
       </div>
-      <ul className="main-nav-list">
+      <ul className="main-nav-list" onClick={(e) => {
+        e.preventDefault();
+        const id = e.target.getAttribute('href');
+        console.log(id)
+        document.querySelector(id).scrollIntoView();
+        setToggle(!toggle)
+      }}>
         <li className="nav-list">
           01.{" "}
-          <a className="nav-link" href="#">
+          <a className="nav-link" href="#about">
             About
           </a>
         </li>
         <li className="nav-list">
           02.{" "}
-          <a className="nav-link" href="#">
+          <a className="nav-link" href="#experience"> 
             Experience
           </a>
         </li>
         <li className="nav-list">
           03.{" "}
-          <a className="nav-link" href="#">
+          <a className="nav-link" href="#work">
             Work
           </a>
         </li>
         <li className="nav-list">
           04.{" "}
-          <a className="nav-link" href="#">
+          <a className="nav-link" href="#more">
             Analysis
           </a>
         </li>
         <li className="nav-list">
           05.{" "}
-          <a className="nav-link" href="#">
+          <a className="nav-link" href="#contact">
             Contact
           </a>
         </li>

@@ -4,7 +4,7 @@ import aboutImg from "../assets/project-image.png";
 import "./about.scss";
 function About() {
   return (
-    <>
+    <div id="about">
       <Title number={"01"}>About Me</Title>
       <div className="about">
         <div className="left">
@@ -26,7 +26,7 @@ function About() {
           <img className="image" src={aboutImg} alt="" />
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

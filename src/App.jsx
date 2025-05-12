@@ -6,22 +6,22 @@ import Hero from "./pages/Hero"
 import Projects from "./pages/Projects"
 import Nav from "./components/Nav"
 import Contact from "./pages/Contact"
-import ContactsBox from "./components/ContactsBox"
 import VerticalMail from "./components/VerticalMail"
 import "./app.scss";
+import "./index.scss";
+import { useRef } from "react"
 
 function App() {
+
   return (
     <div className="app">
       <Nav/>
       <Hero/>
       <About/>
       <Experience/>
-      <Projects/>
+      <Projects />
       <Analysis/>
-      <Contact>
-        {/* <ContactsBox/> */}
-      </Contact>
+      <Contact/>
       <Footer/>
       <VerticalMail/>
     </div>

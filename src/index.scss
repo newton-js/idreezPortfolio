@@ -12,8 +12,13 @@ $text-line-height: 30px;
   box-sizing: border-box;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: $background-color;
   font-family: Inter, sans-serif ;
+  scroll-behavior: smooth;
 }
 

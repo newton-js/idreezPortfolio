@@ -84,7 +84,7 @@ const moreProjects = [
 
 function Projects() {
   return (
-    <div className="projects">
+    <div id="work" className="projects">
       <Title number={"03"}>Some Things I've Built</Title>
       <div>
         {projectContents.map((project, index) => (
@@ -92,7 +92,7 @@ function Projects() {
         ))}
       </div>
       <h2 className="subheading">Other Catchy Projects</h2>
-      <div className="moreProjects">
+      <div className="moreProjects" id="more">
         {moreProjects.map((more, index) => <MoreProjects moreProjects={more} key={index}/>)}
       </div>
     </div>
