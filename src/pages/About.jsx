@@ -9,7 +9,7 @@ function About() {
       <div className="about">
         <div className="left">
           <P>
-            Hello! my name is Abdulhafeez and i have fun coding. From the moment
+            Hello! my name is Idreez and i have fun coding. From the moment
             I wrote my first line of code, I Knew I was hooked into the world of
             software development.
           </P>

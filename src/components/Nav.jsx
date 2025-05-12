@@ -11,11 +11,11 @@ function Nav() {
   }
   return (
     <nav className={`nav ${toggle ? "toggle" : ""}`}>
-      <div className="logo">
+      <a href="#" className="logo">
         <h2>
           N<sup>+</sup>
         </h2>
-      </div>
+      </a>
       <ul className="main-nav-list" onClick={(e) => {
         e.preventDefault();
         const id = e.target.getAttribute('href');
