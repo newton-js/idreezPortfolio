@@ -91,8 +91,8 @@ function Projects() {
           <EachProject projectContents={project} index={index} key={index} />
         ))}
       </div>
-      <h2 className="subheading">Other Catchy Projects</h2>
-      <div className="moreProjects" id="more">
+      <h2 className="subheading" id="more">Other Catchy Projects</h2>
+      <div className="moreProjects" >
         {moreProjects.map((more, index) => <MoreProjects moreProjects={more} key={index}/>)}
       </div>
     </div>
