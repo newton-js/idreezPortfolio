@@ -10,12 +10,17 @@ $text-line-height: 30px;
 
 .more-Projects{
     width: 100%;
-    // height: 200px;
     padding: 2rem;
     background-color: $secondary-background;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
+    transform: scale(0.8);
+    transition: all .5s;
+}
+
+.scale-up{
+    transform: scale(1);
 }
 
 .more-top{

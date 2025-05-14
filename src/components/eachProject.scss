@@ -12,6 +12,12 @@ $text-line-height: 30px;
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
     margin-bottom: 7rem;
+    transform: scale(0.8);
+    transition: all .5s;
+}
+
+.scale-up{
+    transform: scale(1);
 }
 
 .image-box{
@@ -77,10 +83,11 @@ $text-line-height: 30px;
     }
 }
 
-@media(max-width:850px){
+@media(max-width:800px){
     .pro-box{
         grid-template-columns: 1fr;
         position: relative;
+        gap: 3rem;
     }
 
     .image-box{

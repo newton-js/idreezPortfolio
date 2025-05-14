@@ -1,10 +1,14 @@
 import { FaExternalLinkAlt } from "react-icons/fa";
 import "./eachProject.scss";
+import { useInView } from "react-intersection-observer";
 
 function EachProject({ projectContents, index }) {
   const { coverImg, titleInfo, title, detail, tools, linkTo } = projectContents;
+
+   const [ref, inView] = useInView();
+
   return (
-    <div className={`pro-box ${index % 2 !== 0 ? "switch" : ""}`}>
+    <div ref={ref} className={`pro-box ${inView ? 'scale-up' : '' } ${index % 2 !== 0 ? "switch" : ""}`}>
       <div className="image-box">
         <img src={coverImg} alt="" className="image" />
       </div>

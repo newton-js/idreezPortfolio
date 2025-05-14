@@ -44,7 +44,7 @@ function Nav() {
         <li className="nav-list">
           04.{" "}
           <a className="nav-link" href="#more">
-            Analysis
+            More
           </a>
         </li>
         <li className="nav-list">

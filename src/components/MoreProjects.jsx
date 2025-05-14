@@ -1,11 +1,13 @@
 import { FaExternalLinkAlt, FaRegFolder } from "react-icons/fa";
 import { FiGithub } from "react-icons/fi";
 import "./moreProjects.scss";
+import { useInView } from "react-intersection-observer";
 
 function MoreProjects({moreProjects}) {
     const {title, detail, tools, gitLink, link} = moreProjects
+    const [ref, inView] = useInView();
   return (
-    <div className="more-Projects">
+    <div ref={ref} className={`more-Projects ${inView ? 'scale-up' : ''}`}>
       <div className="more-top">
         <FaRegFolder className="more-icon"/>
         <div className="iconics">

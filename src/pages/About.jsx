@@ -2,11 +2,13 @@ import P from "../components/P";
 import Title from "../components/Title";
 import aboutImg from "../assets/project-image.png";
 import "./about.scss";
+import { useInView } from "react-intersection-observer";
 function About() {
+  const [ref, inView] = useInView({threshold: 0})
   return (
-    <div id="about">
+    <div id="about" >
       <Title number={"01"}>About Me</Title>
-      <div className="about">
+      <div ref={ref} className={`about ${inView ? 'glow-up': ""}`}>
         <div className="left">
           <P>
             Hello! my name is Idreez and i have fun coding. From the moment

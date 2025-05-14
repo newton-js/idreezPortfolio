@@ -9,14 +9,11 @@ import Contact from "./pages/Contact"
 import VerticalMail from "./components/VerticalMail"
 import "./app.scss";
 import "./index.scss";
-import { useRef } from "react"
-
 function App() {
-
   return (
-    <div className="app">
+    <div id="app" className="app">
       <Nav/>
-      <Hero/>
+      <Hero/> 
       <About/>
       <Experience/>
       <Projects />

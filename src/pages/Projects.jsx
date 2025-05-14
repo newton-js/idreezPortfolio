@@ -1,3 +1,4 @@
+import { useInView } from "react-intersection-observer";
 import proImg from "../assets/project-image.png";
 import EachProject from "../components/EachProject";
 import MoreProjects from "../components/MoreProjects";
@@ -83,8 +84,10 @@ const moreProjects = [
 
 
 function Projects() {
+  const [ref, inView, entry] = useInView({threshold:0})
   return (
-    <div id="work" className="projects">
+    <div ref={ref} id="work" className={`projects ${inView ? "glows-up" : ''}`}>
+    {/* // <div ref={ref} id="work" className={`projects`}> */}
       <Title number={"03"}>Some Things I've Built</Title>
       <div>
         {projectContents.map((project, index) => (

@@ -1,3 +1,4 @@
+import { useInView } from "react-intersection-observer";
 import TabbedComponent from "../components/TabbedComponent"
 import Title from "../components/Title"
 import "./experience.scss"
@@ -70,8 +71,9 @@ const contents = [
 ];
 
 function Experience() {
+  const [ref, inView] = useInView()
     return (
-        <div id="experience" className="experience">
+        <div ref={ref} id="experience" className={`experience ${inView ?  'glow-up' : ''}`}>
             <Title number={"02"}>Where I've Worked</Title>
             <TabbedComponent contents={contents}/>
         </div>

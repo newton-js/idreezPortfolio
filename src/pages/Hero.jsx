@@ -3,7 +3,7 @@ import "../index.scss"
 import Link from "../components/Link";
 function Hero() {
   return (
-    <div className="hero">
+    <div id="hero" className="hero">
       <p className="header">Hi, my name is</p>
       <h1 className="name">Idreez Yusuf</h1>
       <h1 className="build">I build things for the web.</h1>

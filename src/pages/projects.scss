@@ -30,6 +30,10 @@ $text-line-height: 30px;
     row-gap: 2rem;
 }
 
+.glows-up{
+    transform: translateY(-2%);
+    transition: all 0.5s;
+}
 
 @media(max-width: 1200px){
     .moreProjects{
