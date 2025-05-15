@@ -37,6 +37,7 @@ $text-line-height: 30px;
 
 .logo::before {
   position: absolute;
+  // pointer-events: none;
   content: "";
   width: 110%;
   height: 110%;

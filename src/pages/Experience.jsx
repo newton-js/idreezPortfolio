@@ -55,19 +55,6 @@ const contents = [
       "Implement Student result portal",
     ],
   },
-  {
-    post: "Mobile-App",
-    firm: "Surdtech",
-    firmLink: "https://surdtech.org/",
-    dateFrom: "Oct 2021",
-    dateTo: "june 2026",
-    workMode: "Full-time",
-    duties: [
-      "Write modern, performant, maintainable code for a diverse array of projects",
-      "Implement the front-end of Admin web application",
-      "Implement Student result portal", "i like iragbiji girls"
-    ],
-  },
 ];
 
 function Experience() {

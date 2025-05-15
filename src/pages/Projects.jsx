@@ -27,7 +27,7 @@ const projectContents = [
   {
     coverImg: proImg,
     titleInfo: "Featured Project",
-    title: "Jipson",
+    title: "Newcore",
     detail:
       "recusandae deleniti esse ullam quibusdam eos natus non suscipit, dolorem iure nesciunt. Illum culpa sit eveniet distinctio debitis?",
     tools: ["ReactJS", "ContextAPI", "styled Components"],

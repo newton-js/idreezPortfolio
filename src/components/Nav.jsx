@@ -1,13 +1,13 @@
 import { IoMdClose } from "react-icons/io";
 import Link from "./Link";
-import cv from "../assets/idreez-tech-cv.pdf"
+import resume from "../assets/idreez-tech-cv.pdf";
 import "./nav.scss";
 import { BiMenuAltRight } from "react-icons/bi";
 import { useState } from "react";
 function Nav() {
   const [toggle, setToggle] = useState(false);
   function handleToggle() {
-      setToggle(!toggle)
+    setToggle(!toggle);
   }
   return (
     <nav className={`nav ${toggle ? "toggle" : ""}`}>
@@ -16,13 +16,17 @@ function Nav() {
           N<sup>+</sup>
         </h2>
       </a>
-      <ul className="main-nav-list" onClick={(e) => {
-        e.preventDefault();
-        const id = e.target.getAttribute('href');
-        console.log(id)
-        document.querySelector(id).scrollIntoView();
-        setToggle(!toggle)
-      }}>
+      <ul
+        className="main-nav-list"
+        onClick={(e) => {
+          const id = e.target.getAttribute("href");
+          console.log(id)
+          if (id.startsWith("#")) {
+            document.getElementById(id.replace("#", "")).scrollIntoView();
+            setToggle(!toggle);
+          } 
+        }}
+      >
         <li className="nav-list">
           01.{" "}
           <a className="nav-link" href="#about">
@@ -31,7 +35,7 @@ function Nav() {
         </li>
         <li className="nav-list">
           02.{" "}
-          <a className="nav-link" href="#experience"> 
+          <a className="nav-link" href="#experience">
             Experience
           </a>
         </li>
@@ -55,7 +59,7 @@ function Nav() {
         </li>
         <li className="nav-list">
           {" "}
-          <Link linkTo={cv}>Resume</Link>
+          <Link linkTo={resume}>Resume</Link>
         </li>
       </ul>
       <div className="nav-icon-box" onClick={handleToggle}>
