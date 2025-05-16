@@ -19,6 +19,7 @@ function Nav() {
       <ul
         className="main-nav-list"
         onClick={(e) => {
+          console.log(e.target)
           const id = e.target.getAttribute("href");
           console.log(id)
           if (id.startsWith("#")) {

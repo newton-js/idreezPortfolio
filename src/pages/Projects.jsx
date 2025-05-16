@@ -40,45 +40,45 @@ const projectContents = [
 const moreProjects = [
     {
         title: "Toshnet",
-        gitLink: "https://github.com/newton-js",
+        gitLink: "https://github.com/newton-js/toshnet",
         link: "https://toshnetfarms.org",
         detail: " A restful API built to provide important information about the countries in the world, with various endpoints. Uses NodeJS (Express) and MongoDB as the database",
-        tools: ["NodeJS", "Express", "MongoDB" ]
+        tools: ["HTML", "CSS", "JavaScrpit" ]
     },
     {
-        title: "Toshnet",
-        gitLink: "https://github.com/newton-js",
-        link: "https://toshnetfarms.org",
+        title: "PaySplit",
+        gitLink: "https://github.com/newton-js/Payment-Splitting-Computation",
+        link: "https://github.com/newton-js/Payment-Splitting-Computation",
         detail: " A restful API built to provide important information about the countries in the world, with various endpoints. Uses NodeJS (Express) and MongoDB as the database, and it will be used as a reference and it is a very flexible project ",
-        tools: ["NodeJS", "Express", "MongoDB" ]
+        tools: ["TypeScript", "NodeJs", "MongoDB" ]
     },
     {
-        title: "Toshnet",
-        gitLink: "https://github.com/newton-js",
-        link: "https://toshnetfarms.org",
+        title: "WorldWise",
+        gitLink: "https://github.com/newton-js/worldwise",
+        link: "https://github.com/newton-js/worldwise",
         detail: " A restful API built to provide important information about the countries in the world, with various endpoints. Uses NodeJS (Express) and MongoDB as the database",
-        tools: ["NodeJS", "Express", "MongoDB" ]
+        tools: ["ReactJs", "ContextAPI", "lodash" ]
     },
     {
-        title: "Toshnet",
-        gitLink: "https://github.com/newton-js",
-        link: "https://toshnetfarms.org",
+        title: "NewcoreBusiness",
+        gitLink: "https://github.com/newcoreBiz",
+        link: "https://newcorebusiness.vercel.app/",
         detail: " A restful API built to provide important information about the countries in the world, with various endpoints. Uses NodeJS (Express) and MongoDB as the database",
-        tools: ["NodeJS", "Express", "MongoDB" ]
+        tools: ["HTML", "CSS", "Javascript" ]
     },
     {
-        title: "Toshnet",
-        gitLink: "https://github.com/newton-js",
-        link: "https://toshnetfarms.org",
+        title: "Country App",
+        gitLink: "https://github.com/my-country-app",
+        link: "https://earthcountries.netlify.app",
         detail: " A restful API built to provide important information about the countries in the world, with various endpoints. Uses NodeJS (Express) and MongoDB as the database, and it will be used as a reference ",
-        tools: ["NodeJS", "Express", "MongoDB" ]
+        tools: ["ReactJs", "Javascript", "RestAPI" ]
     },
     {
-        title: "Toshnet",
+        title: "Forkify",
         gitLink: "https://github.com/newton-js",
-        link: "https://toshnetfarms.org",
+        link: "https://newton-forkify.netlify.app",
         detail: " A restful API built to provide important information about the countries in the world, with various endpoints. Uses NodeJS (Express) and MongoDB as the database",
-        tools: ["NodeJS", "Express", "MongoDB" ]
+        tools: ["Javascript", "CSS", "Javascript" ]
     },
 ]
 

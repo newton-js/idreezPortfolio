@@ -35,7 +35,7 @@ $text-line-height: 30px;
       rgba(0, 128, 0, 0.3),
       transparent 90%
     ),
-    url("../assets/project-image.png");
+    url("../assets/myPics.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 1rem;
@@ -61,7 +61,7 @@ $text-line-height: 30px;
 }
 
 .right:hover .image {
-  background: url("../assets/project-image.png");
+  background: url("../assets/myPics.jpeg");
   background-size: cover;
 }
 
@@ -100,3 +100,5 @@ $text-line-height: 30px;
     margin-bottom: 10rem;
   }
 }
+
+
