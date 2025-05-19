@@ -7,8 +7,8 @@ function Hero() {
         <p className="header">Hi, my name is</p>
       <div className="typewriter">
         <h1 className="name">Idreez Yusuf</h1>
-        <h1 className="build">I build things for the web.</h1>
       </div>
+        <h1 className="build">I build things for the web.</h1>
       <p className="summary">
         I'm a software developer specialized in building exceptional digital
         solutions. Currently, I'm focused on building interactive experiences
