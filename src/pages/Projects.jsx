@@ -1,5 +1,7 @@
 import { useInView } from "react-intersection-observer";
-import proImg from "../assets/project-image.png";
+import proImg from "../assets/cbt.png";
+import worldwise from "../assets/worldwise.png";
+import toshnet from "../assets/toshnet.png";
 import EachProject from "../components/EachProject";
 import MoreProjects from "../components/MoreProjects";
 import Title from "../components/Title";
@@ -11,40 +13,34 @@ const projectContents = [
     titleInfo: "Whole Project",
     title: "CBT Quiz Site",
     detail:
-      "A tool that helps take test, exam or quiz digitally Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga, fugit rerum corporis recusandae deleniti esse ullam quibusdam eos natus non suscipit, dolorem iure nesciunt sit amet consectetur adipisicing elit.nostrum quibusdam facere, iure exercitationem, saepe est suscipit quia totam molestias error in qui nisi sequi fuga.",
+      "A tool that helps take test, exam or quiz digitally, an interactive quiz platform where users can take computer-based tests (CBTs), view results, and where admins can manage questions and exams..",
     tools: ["ReactJS", "ContextAPI"],
-    linkTo: "https://newcoretechnologies.com",
+    linkTo: "https://smartcbtquiz.netlify.app",
   },
   {
-    coverImg: proImg,
+    coverImg: worldwise,
     titleInfo: "Featured Project",
-    title: "Virtuous Sprout",
+    title: "WorldWise",
     detail:
-      "A tool that helps take test, exam or quiz digitally Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga, fugit rerum corporis recusandae deleniti esse ullam quibusdam eos natus non suscipit, dolorem iure nesciunt. Illum culpa sit eveniet distinctio debitis?",
-    tools: ["ReactJS", "ContextAPI", "styled Components"],
-    linkTo: "https://virtuous-sprout.ord",
+      "A travel and  tour site to get the best location and explore the world for adventure easily",
+    tools: ["ReactJS", "ContextAPI"],
+    linkTo: "https://github.com/newton-js/worldwise",
   },
   {
-    coverImg: proImg,
+    coverImg: toshnet,
     titleInfo: "Featured Project",
-    title: "Newcore",
+    title: "Toshnet",
     detail:
-      "recusandae deleniti esse ullam quibusdam eos natus non suscipit, dolorem iure nesciunt. Illum culpa sit eveniet distinctio debitis?",
+      "A farming site for crops and livestocks like cow, goat, ram, rabbit and grasscutter to consumers. For our fellow partners in the agriculture industry, we can help to provide tools, machinery and services to help grow your agri-business.",
     tools: ["ReactJS", "ContextAPI", "styled Components"],
-    linkTo: "https://jipson.com",
+    linkTo: "https://toshnetfarms.org",
   },
 ];
 
 
 
 const moreProjects = [
-    {
-        title: "Toshnet",
-        gitLink: "https://github.com/newton-js/toshnet",
-        link: "https://toshnetfarms.org",
-        detail: " A restful API built to provide important information about the countries in the world, with various endpoints. Uses NodeJS (Express) and MongoDB as the database",
-        tools: ["HTML", "CSS", "JavaScrpit" ]
-    },
+   
     {
         title: "PaySplit",
         gitLink: "https://github.com/newton-js/Payment-Splitting-Computation",
@@ -79,6 +75,13 @@ const moreProjects = [
         link: "https://newton-forkify.netlify.app",
         detail: " A restful API built to provide important information about the countries in the world, with various endpoints. Uses NodeJS (Express) and MongoDB as the database",
         tools: ["Javascript", "CSS", "Javascript" ]
+    },
+     {
+        title: "Toshnet",
+        gitLink: "https://github.com/newton-js/toshnet",
+        link: "https://toshnetfarms.org",
+        detail: " A restful API built to provide important information about the countries in the world, with various endpoints. Uses NodeJS (Express) and MongoDB as the database",
+        tools: ["HTML", "CSS", "JavaScrpit" ]
     },
 ]
 
