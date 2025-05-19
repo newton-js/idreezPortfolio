@@ -6,14 +6,14 @@ import "./contactsBox.scss";
 function ContactsBox() {
   return (
     <div className="contacts-box">
-      <a href="http://">
+      <a href="https://github.com/newton-js">
         <FiGithub className="contacts-box-icons" />
+      </a>
+      <a href="https://www.linkedin.com/in/idreez-yusuf-82a8b3145">
+        <FaLinkedinIn className="contacts-box-icons" />
       </a>
       <a href="http://">
         <FaInstagram className="contacts-box-icons" />
-      </a>
-      <a href="http://">
-        <FaLinkedinIn className="contacts-box-icons" />
       </a>
       <a href="http://">
         <FaXTwitter className="contacts-box-icons" />

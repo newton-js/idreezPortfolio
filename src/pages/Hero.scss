@@ -11,6 +11,7 @@ $text-line-height: 30px;
 
 .header {
   color: $green-text;
+  display: inline-block;
 }
 
 .name {
@@ -25,6 +26,19 @@ $text-line-height: 30px;
   font-size: 3.5rem;
   line-height: 79.2px;
   margin-bottom: 1rem;
+  display:block;
+}
+
+.typewriter h1 {
+  overflow: hidden;             
+  white-space: nowrap; 
+  animation: typing 3s steps(30, end) infinite;
+  width: 0;           
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
 }
 
 .summary {

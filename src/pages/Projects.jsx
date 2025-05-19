@@ -45,43 +45,43 @@ const moreProjects = [
         title: "PaySplit",
         gitLink: "https://github.com/newton-js/Payment-Splitting-Computation",
         link: "https://github.com/newton-js/Payment-Splitting-Computation",
-        detail: " A restful API built to provide important information about the countries in the world, with various endpoints. Uses NodeJS (Express) and MongoDB as the database, and it will be used as a reference and it is a very flexible project ",
+        detail: "A nodejs service for computing transaction payment splitting. Uses NodeJS (Express) and MongoDB as the database, and it will be used as a reference and it is a very flexible project ",
         tools: ["TypeScript", "NodeJs", "MongoDB" ]
     },
     {
         title: "WorldWise",
         gitLink: "https://github.com/newton-js/worldwise",
         link: "https://github.com/newton-js/worldwise",
-        detail: " A restful API built to provide important information about the countries in the world, with various endpoints. Uses NodeJS (Express) and MongoDB as the database",
+        detail: " A mapping site built to provide important information about the countries in the world, with various endpoints. Uses countries API and other useful libraries as tools",
         tools: ["ReactJs", "ContextAPI", "lodash" ]
     },
     {
         title: "NewcoreBusiness",
         gitLink: "https://github.com/newcoreBiz",
         link: "https://newcorebusiness.vercel.app/",
-        detail: " A restful API built to provide important information about the countries in the world, with various endpoints. Uses NodeJS (Express) and MongoDB as the database",
+        detail: " Here’s a structured overview of a Business App (frontend focus) — adaptable to many use cases like CRM, sales tracking, employee management, or inventory dashboards.",
         tools: ["HTML", "CSS", "Javascript" ]
     },
     {
         title: "Country App",
         gitLink: "https://github.com/my-country-app",
         link: "https://earthcountries.netlify.app",
-        detail: " A restful API built to provide important information about the countries in the world, with various endpoints. Uses NodeJS (Express) and MongoDB as the database, and it will be used as a reference ",
+        detail: " A restful API built to provide important information about the countries in the world, with various endpoints. ",
         tools: ["ReactJs", "Javascript", "RestAPI" ]
     },
     {
         title: "Forkify",
         gitLink: "https://github.com/newton-js",
         link: "https://newton-forkify.netlify.app",
-        detail: " A restful API built to provide important information about the countries in the world, with various endpoints. Uses NodeJS (Express) and MongoDB as the database",
-        tools: ["Javascript", "CSS", "Javascript" ]
+        detail: "A responsive web app where users can browse the menu, place orders (dine-in, takeaway, or delivery), and where admins can manage orders, menu items, and customer data.",
+        tools: ["HTML", "CSS", "Javascript" ]
     },
      {
-        title: "Toshnet",
-        gitLink: "https://github.com/newton-js/toshnet",
+        title: "Popcorn",
+        gitLink: "https://github.com/newton-js/use-popcorn",
         link: "https://toshnetfarms.org",
-        detail: " A restful API built to provide important information about the countries in the world, with various endpoints. Uses NodeJS (Express) and MongoDB as the database",
-        tools: ["HTML", "CSS", "JavaScrpit" ]
+        detail: "A responsive web app where users can browse the menu, place orders (dine-in, takeaway, or delivery), and where admins can manage orders, menu items, and customer data.",
+        tools: ["React", "CSS", ]
     },
 ]
 

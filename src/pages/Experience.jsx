@@ -15,11 +15,11 @@ const contents = [
       "Write modern, performant, maintainable code for a diverse array of projects",
       "Languages and libraries used are TypeScript, JavaScript, CSS, React, Next, Node.js, Express, Git, and GitHub...",
       "Interface with engineers and designers on daily basis, on improving and developing the product.",
-      "Add dynamic functionality to the web application using JavaScript, such as form validation, interactive elements (sliders, modals), and animations.",
+      "Add dynamic functionality such as form validation, interactive elements (sliders, modals), and animations.",
       "Working with Software Engineering team in the development and improvement of the In-house Product.",
       "Consume APIs (RESTful or GraphQL) to retrieve data and display it on the frontend.",
       "Use lazy loading for assets like images or components that aren’t needed immediately.",
-      "Implement code splitting and bundle optimization for faster load times, particularly in single-page applications (SPAs).",
+      "Implement code splitting and bundle optimization for faster load times, particularly in single-page applications.",
     ],
   },
   {
@@ -39,19 +39,19 @@ const contents = [
       "Set up and manage database replication, sharding, and backups.",
     ],
   },
-  {
-    post: "FrontEnd",
-    firm: "Virtuous Sprout",
-    firmLink: "https://virtuousSprout.org/",
-    dateFrom: "October 2021",
-    dateTo: "july 2023",
-    workMode: "Part-time",
-    duties: [
-      "Write modern, performant, maintainable code for a diverse array of projects",
-      "fixed some bugs",
-      "Implemented some tailwind css", "Document the usage of components and how other developers can contribute or use them effectively."
-    ],
-  },
+  // {
+  //   post: "FrontEnd",
+  //   firm: "Virtuous Sprout",
+  //   firmLink: "https://virtuousSprout.org/",
+  //   dateFrom: "October 2021",
+  //   dateTo: "july 2023",
+  //   workMode: "Part-time",
+  //   duties: [
+  //     "Write modern, performant, maintainable code for a diverse array of projects",
+  //     "fixed some bugs",
+  //     "Implemented some tailwind css", "Document the usage of components and how other developers can contribute or use them effectively."
+  //   ],
+  // },
   {
     post: "FrontEnd",
     firm: "Freelance",
