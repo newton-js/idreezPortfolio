@@ -32,7 +32,7 @@ $text-line-height: 30px;
 .typewriter h1 {
   overflow: hidden;             
   white-space: nowrap; 
-  animation: typing 3s steps(30, end) infinite;
+  animation: typing 3s steps(30, end) forwards;
   width: 0;           
 }
 
