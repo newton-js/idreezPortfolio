@@ -54,15 +54,15 @@ $text-color: #5C340F;
   content: "";
   border: 2px solid $green-text;
   border-radius: 5px;
-  top: 2rem;
-  left: 2rem;
+  top: 1.5rem;
+  left: 1.5rem;
   z-index: -1;
   transition: all 0.5s;
 }
 
 .right:hover::after {
-  top: 1.5rem;
-  left: 1.5rem;
+  top: 1rem;
+  left: 1rem;
 }
 
 .right:hover .image {
